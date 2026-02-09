@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Megha Pareek - Data Science & AI Portfolio. Specializing in Machine Learning, NLP, and AI Automation.">
+    <meta name="keywords" content="Data Science, AI, Machine Learning, NLP, Portfolio, Megha Pareek">
+    <title>Megha Pareek | Data Science & AI Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Particle Canvas Background -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Megha Pareek</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <!-- Small floating profile avatar -->
+                <div class="hero-avatar">
+                    <img src="Megha.jpg" alt="Megha Pareek" class="hero-avatar-img">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-ring avatar-ring-2"></div>
+                </div>
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Megha Pareek</h1>
+                <div class="hero-title-wrapper">
+                    <span class="hero-title">Data Science & AI Enthusiast</span>
+                    <span class="typing-cursor">|</span>
+                </div>
+                <p class="hero-tagline">Building accessible, reliable, and impactful AI applications</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="neural-network">
+                    <div class="node node-1"></div>
+                    <div class="node node-2"></div>
+                    <div class="node node-3"></div>
+                    <div class="node node-4"></div>
+                    <div class="node node-5"></div>
+                    <div class="node node-6"></div>
+                    <svg class="connections" viewBox="0 0 300 300">
+                        <line class="connection" x1="50" y1="50" x2="150" y2="100" />
+                        <line class="connection" x1="50" y1="150" x2="150" y2="100" />
+                        <line class="connection" x1="50" y1="250" x2="150" y2="200" />
+                        <line class="connection" x1="150" y1="100" x2="250" y2="150" />
+                        <line class="connection" x1="150" y1="200" x2="250" y2="150" />
+                        <line class="connection" x1="150" y1="100" x2="150" y2="200" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <!-- Profile Image for About Section -->
+                <div class="about-image-container reveal">
+                    <div class="about-image-wrapper">
+                        <img src="Megha.jpg" alt="Megha Pareek" class="about-image">
+                        <div class="image-border-glow"></div>
+                        <div class="image-decoration decoration-1"></div>
+                        <div class="image-decoration decoration-2"></div>
+                        <div class="image-decoration decoration-3"></div>
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <p>I am an undergraduate student in <strong>Data Science & Artificial Intelligence</strong> with
+                        strong interests in machine learning, NLP, data engineering, and AI automation.</p>
+                    <p>I enjoy building practical, end-to-end systems—from predictive ML models to ETL pipelines and
+                        LLM-powered tools—that solve real-world problems.</p>
+                    <p>I am especially motivated by building <em>accessible, reliable, and impactful</em> AI
+                        applications.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-icon">📍</span>
+                            <span>Delhi, India</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon">🎓</span>
+                            <span>Data Science & AI Student</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon">💡</span>
+                            <span>Open to Internships & Projects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats reveal">
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="98">0</span>
+                        <span class="stat-unit">%</span>
+                        <span class="stat-label">ETL Extraction Accuracy</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="92">0</span>
+                        <span class="stat-unit">%</span>
+                        <span class="stat-label">NLP Model Recall</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="95">0</span>
+                        <span class="stat-unit">%</span>
+                        <span class="stat-label">ML Prediction R²</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Core Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Programming & ML</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>Machine Learning</li>
+                        <li>Linear Regression</li>
+                        <li>Logistic Regression</li>
+                    </ul>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🤖</div>
+                    <h3>LLM & Applied AI</h3>
+                    <ul class="skill-list">
+                        <li>Large Language Models</li>
+                        <li>RAG Systems</li>
+                        <li>Prompt Engineering</li>
+                        <li>AI Guardrails</li>
+                    </ul>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">📝</div>
+                    <h3>NLP</h3>
+                    <ul class="skill-list">
+                        <li>TF-IDF</li>
+                        <li>Text Classification</li>
+                        <li>Sentiment Analysis</li>
+                        <li>Information Extraction</li>
+                    </ul>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">📊</div>
+                    <h3>Data & Analytics</h3>
+                    <ul class="skill-list">
+                        <li>Data Analysis</li>
+                        <li>Data Visualization</li>
+                        <li>Statistics</li>
+                        <li>Microsoft Excel</li>
+                    </ul>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🎯</div>
+                    <h3>Model Evaluation</h3>
+                    <ul class="skill-list">
+                        <li>Precision & Recall</li>
+                        <li>F1-Score</li>
+                        <li>Confusion Matrix</li>
+                        <li>Threshold Tuning</li>
+                    </ul>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Tools & Libraries</h3>
+                    <ul class="skill-list">
+                        <li>Pandas, Scikit-learn</li>
+                        <li>SQL, Tableau</li>
+                        <li>GitHub, VS Code</li>
+                        <li>ETL Pipelines</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+
+            <!-- Live Projects -->
+            <div class="projects-category">
+                <h3 class="category-title">
+                    <span class="pulse-dot"></span>
+                    Live Projects
+                </h3>
+                <div class="projects-grid">
+                    <a href="https://dandelion.base44.app/" target="_blank" rel="noopener" class="project-card-link">
+                        <div class="project-card featured reveal">
+                            <div class="project-header">
+                                <span class="project-status">In Progress</span>
+                                <span class="project-year">2025</span>
+                            </div>
+                            <h4 class="project-title">Dandelion</h4>
+                            <p class="project-subtitle">AI Learning Support Chatbot</p>
+                            <p class="project-description">Accessibility-first, AI-powered learning assistant supporting
+                                students with learning disabilities and diverse cognitive needs.</p>
+                            <ul class="project-highlights">
+                                <li>Modular chatflow with dynamic intent routing</li>
+                                <li>LLM prompt engineering with safety guardrails</li>
+                                <li>Speech-to-Text & Text-to-Speech integration</li>
+                                <li>Tested across 20+ academic scenarios</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag">LLM</span>
+                                <span class="tag">Accessibility</span>
+                                <span class="tag">STT/TTS</span>
+                                <span class="tag">UX</span>
+                            </div>
+                            <span class="project-link-hint">View on Web →</span>
+                        </div>
+                    </a>
+                    <a href="https://luna-chi-ivory.vercel.app/" target="_blank" rel="noopener"
+                        class="project-card-link">
+                        <div class="project-card featured reveal">
+                            <div class="project-header">
+                                <span class="project-status live">Live</span>
+                            </div>
+                            <h4 class="project-title">LUNAA</h4>
+                            <p class="project-subtitle">Interactive Astronomy Learning Platform</p>
+                            <p class="project-description">Visual-first educational platform making astronomy concepts
+                                intuitive and engaging through interactive exploration.</p>
+                            <ul class="project-highlights">
+                                <li>Structured content for constellations & celestial objects</li>
+                                <li>Visual storytelling & spatial representations</li>
+                                <li>Curiosity-driven, exploratory learning</li>
+                                <li>Low-friction UX for beginners</li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="tag">Education</span>
+                                <span class="tag">Visualization</span>
+                                <span class="tag">Interactive</span>
+                            </div>
+                            <span class="project-link-hint">View on Web →</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Other Projects -->
+            <div class="projects-category">
+                <h3 class="category-title">
+                    <span class="code-bracket">{</span>
+                    Technical Projects
+                    <span class="code-bracket">}</span>
+                </h3>
+                <div class="projects-grid three-col">
+                    <a href="https://github.com/Megha9306/matrimonial-etl-pipeline" target="_blank" rel="noopener"
+                        class="project-card-link">
+                        <div class="project-card reveal">
+                            <div class="project-metric">
+                                <span class="metric-value">98%</span>
+                                <span class="metric-label">Accuracy</span>
+                            </div>
+                            <h4 class="project-title">Matrimonial Profile ETL</h4>
+                            <p class="project-description">LLM-powered ETL pipeline converting unstructured biodata into
+                                structured, searchable records with schema validation.</p>
+                            <div class="project-tags">
+                                <span class="tag">LLM</span>
+                                <span class="tag">ETL</span>
+                                <span class="tag">NLP</span>
+                            </div>
+                            <span class="project-link-hint">View on GitHub →</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Megha9306/Fake-news-detection" target="_blank" rel="noopener"
+                        class="project-card-link">
+                        <div class="project-card reveal">
+                            <div class="project-metric">
+                                <span class="metric-value">92%</span>
+                                <span class="metric-label">Recall</span>
+                            </div>
+                            <h4 class="project-title">Fake News Detection</h4>
+                            <p class="project-description">TF-IDF + Logistic Regression pipeline with recall-focused
+                                threshold tuning, outperforming baseline models by 15%.</p>
+                            <div class="project-tags">
+                                <span class="tag">NLP</span>
+                                <span class="tag">Classification</span>
+                                <span class="tag">ML</span>
+                            </div>
+                            <span class="project-link-hint">View on GitHub →</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Megha9306/Student-Score-Prediction" target="_blank" rel="noopener"
+                        class="project-card-link">
+                        <div class="project-card reveal">
+                            <div class="project-metric">
+                                <span class="metric-value">~95%</span>
+                                <span class="metric-label">R² Score</span>
+                            </div>
+                            <h4 class="project-title">Student Score Prediction</h4>
+                            <p class="project-description">Linear Regression model with feature scaling and residual
+                                analysis enabling early academic intervention insights.</p>
+                            <div class="project-tags">
+                                <span class="tag">Regression</span>
+                                <span class="tag">ML</span>
+                                <span class="tag">Analytics</span>
+                            </div>
+                            <span class="project-link-hint">View on GitHub →</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Deloitte Australia</h3>
+                            <span class="timeline-date">Nov 2025</span>
+                        </div>
+                        <p class="timeline-role">Data Analytics Job Simulation | Forage</p>
+                        <ul class="timeline-details">
+                            <li>Identified $2M+ in high-risk transactions</li>
+                            <li>Reduced analysis time by 40% with interactive Tableau dashboards</li>
+                            <li>Performed forensic data analysis on unstructured financial datasets</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Forage Academy</h3>
+                            <span class="timeline-date">Dec 2025</span>
+                        </div>
+                        <p class="timeline-role">Data Labeling Job Simulation</p>
+                        <ul class="timeline-details">
+                            <li>Improved dataset gold-standard alignment to 99%</li>
+                            <li>Contributed to hypothetical 12% F1-score uplift</li>
+                            <li>Executed multi-pass annotation workflows for label consistency</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Masters' Union</h3>
+                            <span class="timeline-date">Current</span>
+                        </div>
+                        <p class="timeline-role">Representative — Data & AI Club</p>
+                        <ul class="timeline-details">
+                            <li>Participating in workshops, discussions, and technical events</li>
+                            <li>Engaging with peers on AI, ML, and data-driven problem-solving</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card reveal">
+                    <div class="cert-icon">🎓</div>
+                    <h4>ChatGPT & Zapier: Agentic AI for Everyone</h4>
+                    <p>Vanderbilt University</p>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon">🐍</div>
+                    <h4>Python (Basic)</h4>
+                    <p>HackerRank</p>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon">🗃️</div>
+                    <h4>SQL (Basic)</h4>
+                    <p>HackerRank</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content reveal">
+                <p class="contact-intro">Open to internships, project-based roles, and learning opportunities during
+                    semester breaks and flexible periods.</p>
+                <div class="contact-grid">
+                    <a href="mailto:pareekmeghaa@gmail.com" class="contact-card">
+                        <span class="contact-icon">📧</span>
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">pareekmeghaa@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/megha-pareek-604282327/" target="_blank" rel="noopener"
+                        class="contact-card">
+                        <span class="contact-icon">💼</span>
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">Connect with me</span>
+                    </a>
+                    <a href="https://github.com/Megha9306" target="_blank" rel="noopener" class="contact-card">
+                        <span class="contact-icon">💻</span>
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-value">View my code</span>
+                    </a>
+                </div>
+                <div class="interests">
+                    <h3>Areas of Interest</h3>
+                    <div class="interest-tags">
+                        <span class="interest-tag">AI Automation</span>
+                        <span class="interest-tag">Data Science Applications</span>
+                        <span class="interest-tag">Learning-Support Technology</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">Designed & Built by Megha Pareek</p>
+                <p class="footer-year">© 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
