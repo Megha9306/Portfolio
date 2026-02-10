@@ -1399,6 +1399,9 @@ a:hover {
     position: relative;
     overflow: hidden;
     backdrop-filter: blur(10px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Ocean wave effect on hover */
@@ -1548,6 +1551,7 @@ a:hover {
     font-size: 0.95rem;
     margin-bottom: var(--space-md);
     line-height: 1.7;
+    flex-grow: 1;
 }
 
 .project-highlights {
@@ -1586,6 +1590,7 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: var(--space-xs);
+    margin-top: auto;
 }
 
 .tag {
@@ -1610,6 +1615,7 @@ a:hover {
     display: block;
     text-decoration: none;
     color: inherit;
+    height: 100%;
 }
 
 .project-card-link:hover {
