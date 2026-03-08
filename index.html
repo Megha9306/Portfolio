@@ -11,9 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
 </head>
 
 <body>
@@ -43,11 +44,8 @@
     <section class="hero" id="hero">
         <div class="hero-content">
             <div class="hero-text">
-                <!-- Small floating profile avatar -->
                 <div class="hero-avatar">
                     <img src="Megha.jpg" alt="Megha Pareek" class="hero-avatar-img">
-                    <div class="avatar-ring"></div>
-                    <div class="avatar-ring avatar-ring-2"></div>
                 </div>
                 <p class="hero-greeting">Hello, I'm</p>
                 <h1 class="hero-name">Megha Pareek</h1>
@@ -55,28 +53,11 @@
                     <span class="hero-title">Data Science & AI Enthusiast</span>
                     <span class="typing-cursor">|</span>
                 </div>
-                <p class="hero-tagline">Building accessible, reliable, and impactful AI applications</p>
+                <p class="hero-tagline">First-year DS&AI student building real-world intelligent systems with human
+                    impact</p>
                 <div class="hero-cta">
                     <a href="#projects" class="btn btn-primary">View My Work</a>
                     <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="neural-network">
-                    <div class="node node-1"></div>
-                    <div class="node node-2"></div>
-                    <div class="node node-3"></div>
-                    <div class="node node-4"></div>
-                    <div class="node node-5"></div>
-                    <div class="node node-6"></div>
-                    <svg class="connections" viewBox="0 0 300 300">
-                        <line class="connection" x1="50" y1="50" x2="150" y2="100" />
-                        <line class="connection" x1="50" y1="150" x2="150" y2="100" />
-                        <line class="connection" x1="50" y1="250" x2="150" y2="200" />
-                        <line class="connection" x1="150" y1="100" x2="250" y2="150" />
-                        <line class="connection" x1="150" y1="200" x2="250" y2="150" />
-                        <line class="connection" x1="150" y1="100" x2="150" y2="200" />
-                    </svg>
                 </div>
             </div>
         </div>
@@ -104,37 +85,50 @@
                     </div>
                 </div>
                 <div class="about-text reveal">
-                    <p>I am an undergraduate student in <strong>Data Science & Artificial Intelligence</strong> with
-                        strong interests in machine learning, NLP, data engineering, and AI automation.</p>
-                    <p>I enjoy building practical, end-to-end systems—from predictive ML models to ETL pipelines and
-                        LLM-powered tools—that solve real-world problems.</p>
-                    <p>I am especially motivated by building <em>accessible, reliable, and impactful</em> AI
-                        applications.</p>
+                    <p>I am a first-year undergraduate in <strong>Data Science &amp; Artificial Intelligence</strong>
+                        building real-world intelligent systems with human impact. Currently accelerating AI product
+                        development through an executive-track internship at <strong>Grapes Worldwide</strong>.</p>
+                    <p>I enjoy building practical, end-to-end systems—from LLM-driven multimodal assistants and
+                        RAG pipelines to predictive ML models and ETL workflows—that solve real-world problems.</p>
+                    <p>I'm especially motivated by building <em>accessible, safe, and impactful</em> AI applications,
+                        and have already seen my work validated in schools, NGOs, and clinical settings.</p>
                     <div class="about-details">
                         <div class="detail-item">
-                            <span class="detail-icon">📍</span>
+                            <span class="detail-icon"><i data-lucide="map-pin"></i></span>
                             <span>Delhi, India</span>
                         </div>
                         <div class="detail-item">
-                            <span class="detail-icon">🎓</span>
-                            <span>Data Science & AI Student</span>
+                            <span class="detail-icon"><i data-lucide="graduation-cap"></i></span>
+                            <span>Data Science &amp; AI Student (2025–2029)</span>
                         </div>
                         <div class="detail-item">
-                            <span class="detail-icon">💡</span>
-                            <span>Open to Internships & Projects</span>
+                            <span class="detail-icon"><i data-lucide="trophy"></i></span>
+                            <span>Applied AI Challenge Winner — Most Engaging Chatbot</span>
                         </div>
+                        <div class="detail-item">
+                            <span class="detail-icon"><i data-lucide="lightbulb"></i></span>
+                            <span>Open to Internships &amp; Projects</span>
+                        </div>
+                    </div>
+                    <div class="currently-section">
+                        <h3>Currently</h3>
+                        <ul class="currently-list">
+                            <li><span class="currently-label">Building</span> AI products at Grapes Worldwide</li>
+                            <li><span class="currently-label">Deploying</span> Dandelion chatbot across schools &amp; NGOs</li>
+                            <li><span class="currently-label">Exploring</span> Multimodal AI &amp; RAG systems</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="about-stats reveal">
                     <div class="stat-card">
-                        <span class="stat-number" data-target="98">0</span>
-                        <span class="stat-unit">%</span>
-                        <span class="stat-label">ETL Extraction Accuracy</span>
+                        <span class="stat-number" data-target="50">0</span>
+                        <span class="stat-unit">+</span>
+                        <span class="stat-label">Students Supported by Dandelion</span>
                     </div>
                     <div class="stat-card">
-                        <span class="stat-number" data-target="92">0</span>
-                        <span class="stat-unit">%</span>
-                        <span class="stat-label">NLP Model Recall</span>
+                        <span class="stat-number" data-target="90">0</span>
+                        <span class="stat-unit">%+</span>
+                        <span class="stat-label">NLP Recall (Fake News)</span>
                     </div>
                     <div class="stat-card">
                         <span class="stat-number" data-target="95">0</span>
@@ -152,63 +146,64 @@
             <h2 class="section-title">Core Skills</h2>
             <div class="skills-grid">
                 <div class="skill-card reveal">
-                    <div class="skill-icon">🐍</div>
-                    <h3>Programming & ML</h3>
+                    <div class="skill-icon"><i data-lucide="code-2"></i></div>
+                    <h3>Programming &amp; ML</h3>
                     <ul class="skill-list">
                         <li>Python</li>
                         <li>Machine Learning</li>
-                        <li>Linear Regression</li>
-                        <li>Logistic Regression</li>
+                        <li>Supervised Learning</li>
+                        <li>Linear &amp; Logistic Regression</li>
+                        <li>Statistics, SQL, Excel</li>
                     </ul>
                 </div>
                 <div class="skill-card reveal">
-                    <div class="skill-icon">🤖</div>
-                    <h3>LLM & Applied AI</h3>
+                    <div class="skill-icon"><i data-lucide="brain"></i></div>
+                    <h3>Generative &amp; Multimodal AI</h3>
                     <ul class="skill-list">
-                        <li>Large Language Models</li>
-                        <li>RAG Systems</li>
-                        <li>Prompt Engineering</li>
-                        <li>AI Guardrails</li>
+                        <li>LLM-based Systems</li>
+                        <li>RAG &amp; Prompt Engineering</li>
+                        <li>AI Safety Guardrails</li>
+                        <li>Speech-to-Text / Text-to-Speech</li>
                     </ul>
                 </div>
                 <div class="skill-card reveal">
-                    <div class="skill-icon">📝</div>
+                    <div class="skill-icon"><i data-lucide="message-square-text"></i></div>
                     <h3>NLP</h3>
                     <ul class="skill-list">
-                        <li>TF-IDF</li>
-                        <li>Text Classification</li>
+                        <li>Text Classification (TF-IDF)</li>
                         <li>Sentiment Analysis</li>
-                        <li>Information Extraction</li>
+                        <li>Bias-controlled Filtering</li>
+                        <li>Dynamic Intent Routing</li>
                     </ul>
                 </div>
                 <div class="skill-card reveal">
-                    <div class="skill-icon">📊</div>
-                    <h3>Data & Analytics</h3>
+                    <div class="skill-icon"><i data-lucide="bar-chart-3"></i></div>
+                    <h3>Data &amp; Analytics</h3>
                     <ul class="skill-list">
-                        <li>Data Analysis</li>
-                        <li>Data Visualization</li>
+                        <li>Data Analysis &amp; Visualization</li>
                         <li>Statistics</li>
-                        <li>Microsoft Excel</li>
+                        <li>Tableau, Excel</li>
+                        <li>ETL Pipelines</li>
                     </ul>
                 </div>
                 <div class="skill-card reveal">
-                    <div class="skill-icon">🎯</div>
+                    <div class="skill-icon"><i data-lucide="scan-eye"></i></div>
                     <h3>Model Evaluation</h3>
                     <ul class="skill-list">
-                        <li>Precision & Recall</li>
-                        <li>F1-Score</li>
+                        <li>Precision, Recall, F1-Score</li>
                         <li>Confusion Matrix</li>
                         <li>Threshold Tuning</li>
+                        <li>SHAP Explainability</li>
                     </ul>
                 </div>
                 <div class="skill-card reveal">
-                    <div class="skill-icon">🛠️</div>
-                    <h3>Tools & Libraries</h3>
+                    <div class="skill-icon"><i data-lucide="wrench"></i></div>
+                    <h3>Tools &amp; Libraries</h3>
                     <ul class="skill-list">
                         <li>Pandas, Scikit-learn</li>
-                        <li>SQL, Tableau</li>
+                        <li>Chroma DB (Vector DB)</li>
                         <li>GitHub, VS Code</li>
-                        <li>ETL Pipelines</li>
+                        <li>SQL, Tableau</li>
                     </ul>
                 </div>
             </div>
@@ -230,24 +225,25 @@
                     <a href="https://dandelion.base44.app/" target="_blank" rel="noopener" class="project-card-link">
                         <div class="project-card featured reveal">
                             <div class="project-header">
-                                <span class="project-status">In Progress</span>
-                                <span class="project-year">2025</span>
+                                <span class="project-status">Live</span>
+                                <span class="project-year">2025 – Present</span>
                             </div>
                             <h4 class="project-title">Dandelion</h4>
-                            <p class="project-subtitle">AI Learning Support Chatbot</p>
-                            <p class="project-description">Accessibility-first, AI-powered learning assistant supporting
-                                students with learning disabilities and diverse cognitive needs.</p>
+                            <p class="project-subtitle">LLM-Driven Multimodal Learning Support Chatbot</p>
+                            <p class="project-description">RAG-powered, multimodal learning assistant with sentiment
+                                analysis and dynamic intent routing, deployed in 2 schools and 1 NGO, supporting 50+
+                                students.</p>
                             <ul class="project-highlights">
-                                <li>Modular chatflow with dynamic intent routing</li>
-                                <li>LLM prompt engineering with safety guardrails</li>
-                                <li>Speech-to-Text & Text-to-Speech integration</li>
-                                <li>Tested across 20+ academic scenarios</li>
+                                <li>RAG + sentiment analysis across 20+ academic scenarios</li>
+                                <li>AI safety guardrails &amp; bias-controlled response filtering</li>
+                                <li>Speech-to-Text &amp; Text-to-Speech for voice-assisted access</li>
+                                <li>Validated by 3 teachers &amp; 7 psychologists</li>
                             </ul>
                             <div class="project-tags">
                                 <span class="tag">LLM</span>
-                                <span class="tag">Accessibility</span>
+                                <span class="tag">RAG</span>
                                 <span class="tag">STT/TTS</span>
-                                <span class="tag">UX</span>
+                                <span class="tag">AI Safety</span>
                             </div>
                             <span class="project-link-hint">View on Web →</span>
                         </div>
@@ -257,16 +253,18 @@
                         <div class="project-card featured reveal">
                             <div class="project-header">
                                 <span class="project-status live">Live</span>
+                                <span class="project-year">January 2026</span>
                             </div>
                             <h4 class="project-title">LUNAA</h4>
                             <p class="project-subtitle">Interactive Astronomy Learning Platform</p>
-                            <p class="project-description">Visual-first educational platform making astronomy concepts
-                                intuitive and engaging through interactive exploration.</p>
+                            <p class="project-description">Visual, exploration-driven learning platform for
+                                constellations, celestial objects, and sky navigation with progressive interactive
+                                modules.</p>
                             <ul class="project-highlights">
-                                <li>Structured content for constellations & celestial objects</li>
-                                <li>Visual storytelling & spatial representations</li>
-                                <li>Curiosity-driven, exploratory learning</li>
-                                <li>Low-friction UX for beginners</li>
+                                <li>Progressive interactive modules for constellations &amp; sky navigation</li>
+                                <li>Visual storytelling workflows for self-paced learners</li>
+                                <li>Improved conceptual clarity in early user testing</li>
+                                <li>Exploratory UI designed for curiosity-driven engagement</li>
                             </ul>
                             <div class="project-tags">
                                 <span class="tag">Education</span>
@@ -317,12 +315,13 @@
                         class="project-card-link">
                         <div class="project-card reveal">
                             <div class="project-metric">
-                                <span class="metric-value">98%</span>
-                                <span class="metric-label">Accuracy</span>
+                                <span class="metric-value">~93%</span>
+                                <span class="metric-label">Field Accuracy</span>
                             </div>
                             <h4 class="project-title">Matrimonial Profile ETL</h4>
-                            <p class="project-description">LLM-powered ETL pipeline converting unstructured biodata into
-                                structured, searchable records with schema validation.</p>
+                            <p class="project-description">ETL + LLM extraction pipeline for 100+ unstructured
+                                documents, achieving ~92–95% field accuracy and reducing manual formatting time by
+                                70–80%.</p>
                             <div class="project-tags">
                                 <span class="tag">LLM</span>
                                 <span class="tag">ETL</span>
@@ -335,12 +334,12 @@
                         class="project-card-link">
                         <div class="project-card reveal">
                             <div class="project-metric">
-                                <span class="metric-value">92%</span>
+                                <span class="metric-value">&gt;90%</span>
                                 <span class="metric-label">Recall</span>
                             </div>
                             <h4 class="project-title">Fake News Detection</h4>
-                            <p class="project-description">TF-IDF + Logistic Regression pipeline with recall-focused
-                                threshold tuning, outperforming baseline models by 15%.</p>
+                            <p class="project-description">End-to-end TF-IDF + Logistic Regression classifier on a
+                                ~10K article dataset with recall-focused threshold tuning, achieving &gt;90% recall.</p>
                             <div class="project-tags">
                                 <span class="tag">NLP</span>
                                 <span class="tag">Classification</span>
@@ -357,8 +356,8 @@
                                 <span class="metric-label">R² Score</span>
                             </div>
                             <h4 class="project-title">Student Score Prediction</h4>
-                            <p class="project-description">Linear Regression model with feature scaling and residual
-                                analysis enabling early academic intervention insights.</p>
+                            <p class="project-description">Feature-engineered linear regression model on ~1,000 records,
+                                reaching ~95% R² to identify key academic performance drivers.</p>
                             <div class="project-tags">
                                 <span class="tag">Regression</span>
                                 <span class="tag">ML</span>
@@ -381,13 +380,43 @@
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
                         <div class="timeline-header">
-                            <h3>Deloitte Australia</h3>
-                            <span class="timeline-date">Nov 2025</span>
+                            <h3>Grapes Worldwide</h3>
+                            <span class="timeline-date">Current</span>
                         </div>
-                        <p class="timeline-role">Data Analytics Job Simulation | Forage</p>
+                        <p class="timeline-role">AI Product Builder Intern — Future CEO Track</p>
                         <ul class="timeline-details">
-                            <li>Identified $2M+ in high-risk transactions</li>
-                            <li>Reduced analysis time by 40% with interactive Tableau dashboards</li>
+                            <li>Leading AI-driven product initiatives focused on scalable business solutions and
+                                strategic automation</li>
+                            <li>Integrating advanced LLM workflows to enhance product lifecycle efficiency</li>
+                            <li>Driving strategic innovation across cross-functional AI product development</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Masters' Union</h3>
+                            <span class="timeline-date">2025 – Present</span>
+                        </div>
+                        <p class="timeline-role">Elected Representative — Data &amp; AI Club</p>
+                        <ul class="timeline-details">
+                            <li>Led 10+ peer-based initiatives, technical discussions, and community engagement</li>
+                            <li>Won Applied AI Challenge: Awarded Most Engaging Chatbot for "Dandelion"</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Deloitte Australia</h3>
+                            <span class="timeline-date">Simulation</span>
+                        </div>
+                        <p class="timeline-role">Data Analytics Simulation | Forage</p>
+                        <ul class="timeline-details">
+                            <li>Analysed 3 complex datasets using Excel and Tableau</li>
+                            <li>Built 5 automated dashboards, reducing reporting TAT by ~40%</li>
                             <li>Performed forensic data analysis on unstructured financial datasets</li>
                         </ul>
                     </div>
@@ -397,27 +426,12 @@
                     <div class="timeline-content">
                         <div class="timeline-header">
                             <h3>Forage Academy</h3>
-                            <span class="timeline-date">Dec 2025</span>
+                            <span class="timeline-date">Simulation</span>
                         </div>
-                        <p class="timeline-role">Data Labeling Job Simulation</p>
+                        <p class="timeline-role">Data Labelling Simulation</p>
                         <ul class="timeline-details">
-                            <li>Improved dataset gold-standard alignment to 99%</li>
-                            <li>Contributed to hypothetical 12% F1-score uplift</li>
-                            <li>Executed multi-pass annotation workflows for label consistency</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item reveal">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-header">
-                            <h3>Masters' Union</h3>
-                            <span class="timeline-date">Current</span>
-                        </div>
-                        <p class="timeline-role">Representative — Data & AI Club</p>
-                        <ul class="timeline-details">
-                            <li>Participating in workshops, discussions, and technical events</li>
-                            <li>Engaging with peers on AI, ML, and data-driven problem-solving</li>
+                            <li>Annotated and validated 1,000+ samples for supervised ML pipelines</li>
+                            <li>Ensured data integrity and class balance across annotation workflows</li>
                         </ul>
                     </div>
                 </div>
@@ -428,20 +442,30 @@
     <!-- Certifications Section -->
     <section class="section certifications" id="certifications">
         <div class="container">
-            <h2 class="section-title">Certifications</h2>
+            <h2 class="section-title">Education &amp; Certifications</h2>
             <div class="cert-grid">
                 <div class="cert-card reveal">
-                    <div class="cert-icon">🎓</div>
-                    <h4>ChatGPT & Zapier: Agentic AI for Everyone</h4>
+                    <div class="cert-icon"><i data-lucide="building-2"></i></div>
+                    <h4>Undergraduate Programme in Data Science &amp; AI</h4>
+                    <p>Masters' Union &nbsp;|&nbsp; 2025 – 2029</p>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i data-lucide="flask-conical"></i></div>
+                    <h4>B.Sc. (Hons) in Data Science &amp; AI</h4>
+                    <p>IIT Guwahati &nbsp;|&nbsp; 2025 – 2029</p>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i data-lucide="award"></i></div>
+                    <h4>ChatGPT &amp; Zapier: Agentic AI for Everyone</h4>
                     <p>Vanderbilt University</p>
                 </div>
                 <div class="cert-card reveal">
-                    <div class="cert-icon">🐍</div>
+                    <div class="cert-icon"><i data-lucide="code-2"></i></div>
                     <h4>Python (Basic)</h4>
                     <p>HackerRank</p>
                 </div>
                 <div class="cert-card reveal">
-                    <div class="cert-icon">🗃️</div>
+                    <div class="cert-icon"><i data-lucide="database"></i></div>
                     <h4>SQL (Basic)</h4>
                     <p>HackerRank</p>
                 </div>
@@ -457,19 +481,19 @@
                 <p class="contact-intro">Open to internships, project-based roles, and learning opportunities during
                     semester breaks and flexible periods.</p>
                 <div class="contact-grid">
-                    <a href="mailto:pareekmeghaa@gmail.com" class="contact-card">
-                        <span class="contact-icon">📧</span>
+                    <a href="mailto:megha.pareek_ugdsai2029@mastersunion.org" class="contact-card">
+                        <span class="contact-icon"><i data-lucide="mail"></i></span>
                         <span class="contact-label">Email</span>
-                        <span class="contact-value">pareekmeghaa@gmail.com</span>
+                        <span class="contact-value">megha.pareek_ugdsai2029@mastersunion.org</span>
                     </a>
                     <a href="https://www.linkedin.com/in/megha-pareek-604282327/" target="_blank" rel="noopener"
                         class="contact-card">
-                        <span class="contact-icon">💼</span>
+                        <span class="contact-icon"><i data-lucide="linkedin"></i></span>
                         <span class="contact-label">LinkedIn</span>
                         <span class="contact-value">Connect with me</span>
                     </a>
                     <a href="https://github.com/Megha9306" target="_blank" rel="noopener" class="contact-card">
-                        <span class="contact-icon">💻</span>
+                        <span class="contact-icon"><i data-lucide="github"></i></span>
                         <span class="contact-label">GitHub</span>
                         <span class="contact-value">View my code</span>
                     </a>
